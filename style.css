@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
 }
 
 .profile-image img {
@@ -29,4 +29,34 @@
     width: 60px;
     background-color: #f59619;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col.div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+
+    
+}
+
+.nav-icon {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    flex: 1;
+    max-width: 80px;
+}
+
+.nav-icon a {
+    font-size: 12px;
+    padding: 0;
+
 }
